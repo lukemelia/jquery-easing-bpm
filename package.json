@@ -1,0 +1,27 @@
+{
+  "name":        "jquery-easing",
+  "version":     "1.3.0",
+  "author":      "George Smith Graphic Design",
+  "description": "A jQuery plugin from GSGD to give advanced easing options",
+  "summary":     "A jQuery plugin from GSGD to give advanced easing options",
+  "homepage":    "http://gsgd.co.uk/sandbox/jquery/easing/",
+  "license": {
+    "name": "BSD",
+    "url": "http://www.opensource.org/licenses/bsd-license.php"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+        "lib"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery": ">= 0",
+    "spade": ">= 0"
+  },
+  "bpm": "1.0.0"
+}
